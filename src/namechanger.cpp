@@ -4,7 +4,7 @@ bool Settings::NameChanger::enabled = false;
 bool Settings::NameChanger::last_blank = false;
 
 int NameChanger::changes = -1;
-const char* atom[] = { "AIMTUX.NET", "AIMTUX.NET ", "AIMTUX.NET", "AIMTUX.NET ", "AIMTUX.NET" };
+const char* atom[] = { "$TONE", "$TONE ", "$TONE", "$TONE ", "$TONE" };
 int atomSize = sizeof(atom) / sizeof(atom[0]);
 
 void NameChanger::CreateMove(CUserCmd* cmd)
